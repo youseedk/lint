@@ -1,0 +1,34 @@
+{
+  "name": "@youseedk/lint",
+  "publishConfig": {
+    "access": "public"
+  },
+  "version": "0.0.1",
+  "keywords": [
+    "yousee",
+    "style",
+    "lint",
+    "eslint",
+    "stylelint",
+    "prettierrc"
+  ],
+  "description": "Linter configurations to be used across yousee.dk",
+  "engines": {
+    "node": "^10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/youseedk/lint.git"
+  },
+  "author": "YouSee Digital Warehouse (https://github.com/youseedk/lint/graphs/contributors)",
+  "license": "ISC",
+  "homepage": "https://github.com/youseedk/lint",
+  "dependencies": {
+    "stylelint": "10.0.1",
+    "stylelint-config-recommended": "2.2.0",
+    "stylelint-scss": "3.6.1"
+  },
+  "devDependencies": {
+    "prettier": "1.17.1"
+  }
+}

@@ -1,0 +1,22 @@
+/* This file is only used for testing
+   It has style errors on purpose to test stylelint works */
+
+.testClass {
+  // color-no-hex
+  color: #000;
+
+  // font-weight-notation
+  font-weight: bold;
+
+  // declaration-no-important
+  visibility: hidden !important;
+
+  // indentation
+   padding: 5px;
+
+  // property-no-unknown
+  box-flex: bold;
+
+  // declaration-block-trailing-semicolon
+  box-sizing: border-box
+}
