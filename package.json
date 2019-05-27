@@ -20,6 +20,11 @@
     "type": "git",
     "url": "https://github.com/youseedk/lint.git"
   },
+  "files": [
+    ".prettierrc",
+    ".stylelintrc.json",
+    "node_modules/stylelint-config-recommended/index.js"
+  ],
   "author": "YouSee Digital Warehouse (https://github.com/youseedk/lint/graphs/contributors)",
   "license": "ISC",
   "homepage": "https://github.com/youseedk/lint",
