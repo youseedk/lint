@@ -21,29 +21,13 @@
     "url": "https://github.com/youseedk/lint.git"
   },
   "files": [
-    "eslint-config.js",
+    "eslint.config.js",
     "prettier.config.js",
-    "stylelint-config.js"
+    "stylelint.config.js"
   ],
   "author": "YouSee Digital Warehouse (https://github.com/youseedk/lint/graphs/contributors)",
   "license": "ISC",
   "homepage": "https://github.com/youseedk/lint",
-  "devDependencies": {
-    "eslint": "^5.16.0",
-    "eslint-config-prettier": "^4.3.0",
-    "eslint-plugin-jest": "^22.6.4",
-    "eslint-plugin-node": "^9.1.0",
-    "eslint-plugin-prettier": "^3.1.0",
-    "eslint-plugin-react": "^7.13.0",
-    "eslint-plugin-react-hooks": "^1.6.0",
-    "eslint-plugin-react-redux": "^3.0.1",
-    "prettier": "1.17.1",
-    "stylelint": "10.0.1",
-    "stylelint-config-prettier": "^5.2.0",
-    "stylelint-config-recommended": "^2.2.0",
-    "stylelint-prettier": "^1.1.0",
-    "stylelint-scss": "3.6.1"
-  },
   "peerDependencies": {
     "eslint": ">=5.0.0",
     "eslint-config-prettier": ">=4.3.0",
