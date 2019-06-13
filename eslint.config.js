@@ -5,28 +5,28 @@ module.exports = {
     'plugin:react/recommended',
     'plugin:react-redux/recommended',
     'prettier',
-    'prettier/react'
+    'prettier/react',
   ],
   plugins: ['react', 'react-hooks', 'react-redux', 'prettier'],
   parserOptions: {
     ecmaVersion: 9,
     sourceType: 'module',
     ecmaFeatures: {
-      jsx: true
-    }
+      jsx: true,
+    },
   },
   env: {
     node: true,
-    es6: true
+    es6: true,
   },
   settings: {
     react: {
-      version: '16.8'
-    }
+      version: '16.8',
+    },
   },
   globals: {
     window: true,
-    document: true
+    document: true,
   },
   rules: {
     'prettier/prettier': 'error',
@@ -44,6 +44,6 @@ module.exports = {
     'no-caller': 'error',
     'no-unused-expressions': 'error',
     'no-var': 'error',
-    'prefer-const': 'error'
-  }
+    'prefer-const': 'error',
+  },
 };

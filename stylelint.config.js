@@ -26,7 +26,7 @@ module.export = {
       'vmax',
       'vh',
       'ms',
-      'fr'
+      'fr',
     ],
     'unit-blacklist': ['pt'],
     'unit-case': 'lower',
@@ -41,8 +41,8 @@ module.export = {
       true,
       {
         severity: 'warning',
-        message: 'Remember that for most cases there is no need for prefixes.'
-      }
+        message: 'Remember that for most cases there is no need for prefixes.',
+      },
     ],
     'declaration-bang-space-after': 'never',
     'declaration-bang-space-before': 'always',
@@ -54,8 +54,8 @@ module.export = {
     'block-closing-brace-newline-after': [
       'always',
       {
-        ignoreAtRules: ['if', 'else']
-      }
+        ignoreAtRules: ['if', 'else'],
+      },
     ],
     'block-opening-brace-newline-after': 'always',
     'block-opening-brace-newline-before': 'never-single-line',
@@ -68,8 +68,8 @@ module.export = {
     'selector-no-qualifying-type': [
       true,
       {
-        ignore: ['attribute']
-      }
+        ignore: ['attribute'],
+      },
     ],
     'selector-no-vendor-prefix': true,
     'selector-pseudo-class-case': 'lower',
@@ -85,8 +85,8 @@ module.export = {
     'rule-empty-line-before': [
       'always-multi-line',
       {
-        ignore: ['after-comment']
-      }
+        ignore: ['after-comment'],
+      },
     ],
     'media-feature-colon-space-after': 'always',
     'media-feature-colon-space-before': 'never',
@@ -98,8 +98,8 @@ module.export = {
       'always',
       {
         ignore: ['after-comment', 'inside-block'],
-        except: ['blockless-after-blockless']
-      }
+        except: ['blockless-after-blockless'],
+      },
     ],
     'at-rule-name-case': 'lower',
     'at-rule-name-space-after': 'always',
@@ -116,9 +116,9 @@ module.export = {
           'return',
           'for',
           'else',
-          'extend'
-        ]
-      }
+          'extend',
+        ],
+      },
     ],
     'comment-empty-line-before': 'always',
     indentation: 2,
@@ -127,10 +127,10 @@ module.export = {
       5,
       {
         ignore: ['blockless-at-rules'],
-        message: 'Please try not to nest deeper than 3 levels'
-      }
+        message: 'Please try not to nest deeper than 3 levels',
+      },
     ],
     'no-eol-whitespace': true,
-    'function-name-case': 'lower'
-  }
+    'function-name-case': 'lower',
+  },
 };
