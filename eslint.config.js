@@ -34,6 +34,7 @@ module.exports = {
     'react/no-unescaped-entities': 'error',
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
+    'react-redux/prefer-separate-component-file': 'off',
     'node/no-unsupported-features/es-syntax': 'off',
     'node/no-unpublished-require': 'off',
     'array-callback-return': 'error',
